@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RAMJAM</Machine>
+    <WindowsUser>Nate</WindowsUser>
+    <SolutionConfiguration>Debug|Win32</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>5f337914-64c4-458f-974f-4b0724b7ddee</PackageIdentityName>
+    <RegisteredManifestChecksum>D814FAF55CBA177ED252AE1AEE2BB9D42566EA0228D3DFE6D3EB4AE6BC8ADBE6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>5f337914-64c4-458f-974f-4b0724b7ddee_1.0.0.0_x86__gpfrfcskskzsw</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>5f337914-64c4-458f-974f-4b0724b7ddee_gpfrfcskskzsw!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>5f337914-64c4-458f-974f-4b0724b7ddee</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Nate</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\Users\Nate\documents\visual studio 2013\Projects\App1\Debug\App1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-04T22:15:37.850</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\Users\Nate\documents\visual studio 2013\Projects\App1\Debug\App1\App1.exe">
+      <PackagePath>App1.exe</PackagePath>
+      <Modified>2015-04-04T22:28:14.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Nate\documents\visual studio 2013\Projects\App1\Debug\App1\App1.winmd">
+      <PackagePath>App1.winmd</PackagePath>
+      <Modified>2015-04-04T22:15:35.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Nate\documents\visual studio 2013\Projects\App1\App1\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T15:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Nate\documents\visual studio 2013\Projects\App1\App1\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T15:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Nate\documents\visual studio 2013\Projects\App1\App1\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T15:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Nate\documents\visual studio 2013\Projects\App1\App1\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T15:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Nate\documents\visual studio 2013\Projects\App1\Debug\App1\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-04-04T22:15:35.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Nate\documents\visual studio 2013\Projects\App1\Debug\App1\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-04-04T22:28:13.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Nate\documents\visual studio 2013\Projects\App1\Debug\App1\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-04-04T22:15:37.176</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
