@@ -1,2 +1,0 @@
-# dot_log_win8app
-DOT LOG WIN* APP DEVELOPMENT
