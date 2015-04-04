@@ -1,0 +1,27 @@
+﻿Build started 3/30/2015 8:12:59 PM.
+     1>Project "C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\DOTlog.Windows.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\ /I"Generated Files\\" /IDebug\ /IC:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Shared\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\DOTlog.Windows.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Shared\App.xaml.cpp MainPage.xaml.cpp
+         App.xaml.cpp
+         MainPage.xaml.cpp
+       CreateWinMD:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mark\Desktop\DOTlog\Debug\DOTlog.Windows\DOTlog.Windows.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Mark\Desktop\DOTlog\Debug\DOTlog.Windows\DOTlog.Windows.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"C:\Users\Mark\Desktop\DOTlog\Debug\DOTlog.Windows\DOTlog.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\pch.obj
+         Debug\MainPage.xaml.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+       CompileXamlGeneratedFiles:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\ /I"Generated Files\\" /IDebug\ /IC:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Shared\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\DOTlog.Windows.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "Generated Files\XamlTypeInfo.g.cpp"
+         XamlTypeInfo.g.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mark\Desktop\DOTlog\Debug\DOTlog.Windows\DOTlog.Windows.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Mark\Desktop\DOTlog\Debug\DOTlog.Windows\DOTlog.Windows.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"C:\Users\Mark\Desktop\DOTlog\Debug\DOTlog.Windows\DOTlog.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\pch.obj
+         Debug\MainPage.xaml.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+         Debug\XamlTypeInfo.g.obj
+            Creating library C:\Users\Mark\Desktop\DOTlog\Debug\DOTlog.Windows\DOTlog.Windows.lib and object C:\Users\Mark\Desktop\DOTlog\Debug\DOTlog.Windows\DOTlog.Windows.exp
+         DOTlog.Windows.vcxproj -> C:\Users\Mark\Desktop\DOTlog\Debug\DOTlog.Windows\DOTlog.Windows.exe
+     1>Done Building Project "C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\DOTlog.Windows.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.60
