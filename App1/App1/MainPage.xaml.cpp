@@ -6,7 +6,7 @@
 #include "pch.h"
 #include "MainPage.xaml.h"
 #include "EditEvents.xaml.h"
-
+#include "SyncPage.xaml.h"
 using namespace App1;
 
 using namespace Platform;
@@ -33,5 +33,14 @@ void App1::MainPage::EditEventsButton_Click(Platform::Object^ sender, Windows::U
 	if (this->Frame != nullptr)
 	{
 		this->Frame->Navigate(EditEvents::typeid);
+	}
+}
+
+
+void App1::MainPage::SyncPageButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	if (this->Frame != nullptr)
+	{
+		this->Frame->Navigate(SyncPage::typeid);
 	}
 }

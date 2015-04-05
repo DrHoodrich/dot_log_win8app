@@ -12,10 +12,12 @@
 #include "EditEvents.xaml.h"
 #include "App.xaml.h"
 #include "MainPage.xaml.h"
+#include "SyncPage.xaml.h"
 
 #include "EditEvents.g.hpp"
 #include "App.g.hpp"
 #include "MainPage.g.hpp"
+#include "SyncPage.g.hpp"
 
 ::Platform::Collections::Vector<::Windows::UI::Xaml::Markup::IXamlMetadataProvider^>^ ::XamlTypeInfo::InfoProvider::XamlTypeInfoProvider::OtherProviders::get()
 {
@@ -139,6 +141,21 @@
         return userType;
     }
 
+    if (typeName == L"App1.SyncPage")
+    {
+        ::XamlTypeInfo::InfoProvider::XamlUserType^ userType = ref new ::XamlTypeInfo::InfoProvider::XamlUserType(this, typeName, GetXamlTypeByName(L"Windows.UI.Xaml.Controls.Page"));
+        userType->KindOfType = ::Windows::UI::Xaml::Interop::TypeKind::Custom;
+        userType->Activator =
+            []() -> Platform::Object^ 
+            {
+                return ref new ::App1::SyncPage(); 
+            };
+        userType->AddMemberName(L"NavigationHelper");
+        userType->AddMemberName(L"DefaultViewModel");
+        userType->SetIsLocalType();
+        return userType;
+    }
+
     if (typeName == L"App1.Common.RelayCommand")
     {
         ::XamlTypeInfo::InfoProvider::XamlUserType^ userType = ref new ::XamlTypeInfo::InfoProvider::XamlUserType(this, typeName, GetXamlTypeByName(L"Object"));
@@ -174,6 +191,34 @@
             [](Object^ instance) -> Object^
             {
                 auto that = (::App1::EditEvents^)instance;
+                return that->DefaultViewModel;
+            };
+
+        xamlMember->SetIsReadOnly();
+        return xamlMember;
+    }
+
+    if (longMemberName == L"App1.SyncPage.NavigationHelper")
+    {
+        ::XamlTypeInfo::InfoProvider::XamlMember^ xamlMember = ref new ::XamlTypeInfo::InfoProvider::XamlMember(this, L"NavigationHelper", L"App1.Common.NavigationHelper");
+        xamlMember->Getter =
+            [](Object^ instance) -> Object^
+            {
+                auto that = (::App1::SyncPage^)instance;
+                return that->NavigationHelper;
+            };
+
+        xamlMember->SetIsReadOnly();
+        return xamlMember;
+    }
+
+    if (longMemberName == L"App1.SyncPage.DefaultViewModel")
+    {
+        ::XamlTypeInfo::InfoProvider::XamlMember^ xamlMember = ref new ::XamlTypeInfo::InfoProvider::XamlMember(this, L"DefaultViewModel", L"Windows.Foundation.Collections.IObservableMap`2<String, Object>");
+        xamlMember->Getter =
+            [](Object^ instance) -> Object^
+            {
+                auto that = (::App1::SyncPage^)instance;
                 return that->DefaultViewModel;
             };
 

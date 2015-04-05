@@ -12,7 +12,7 @@
         <CommandBar>
             <AppBarButton Icon="Add" Label="New Event"/>
             <AppBarButton x:Name="EditEvents" Icon="AllApps" Label="Edit Events" Click="EditEventsButton_Click"/>
-            <AppBarButton Icon="Sync" Label="Sync"/>
+            <AppBarButton x:Name="SyncPage" Icon="Sync" Label="Sync" Click="SyncPageButton_Click"/>
         </CommandBar>
     </Page.TopAppBar>
     <!-- Begin main body of app -->

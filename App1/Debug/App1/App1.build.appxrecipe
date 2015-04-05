@@ -47,6 +47,9 @@
     <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\SyncPage.xbf">
+      <PackagePath>SyncPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>

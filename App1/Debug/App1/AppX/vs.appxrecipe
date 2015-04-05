@@ -20,17 +20,17 @@
     <AppXManifest Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-04-05T00:29:03.894</Modified>
+      <Modified>2015-04-05T00:43:06.328</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2015-04-05T00:29:00.643</Modified>
+      <Modified>2015-04-05T00:43:02.190</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.winmd">
       <PackagePath>App1.winmd</PackagePath>
-      <Modified>2015-04-05T00:28:56.061</Modified>
+      <Modified>2015-04-05T00:42:55.205</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\App1\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -58,15 +58,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\EditEvents.xbf">
       <PackagePath>EditEvents.xbf</PackagePath>
-      <Modified>2015-04-05T00:28:56.842</Modified>
+      <Modified>2015-04-05T00:42:57.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-04-05T00:28:56.842</Modified>
+      <Modified>2015-04-05T00:42:57.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\SyncPage.xbf">
+      <PackagePath>SyncPage.xbf</PackagePath>
+      <Modified>2015-04-05T00:42:57.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-04-05T00:29:03.441</Modified>
+      <Modified>2015-04-05T00:43:06.026</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

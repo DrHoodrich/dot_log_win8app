@@ -61,5 +61,6 @@
   <ItemGroup>
     <Page Include="MainPage.xaml" />
     <Page Include="EditEvents.xaml" />
+    <Page Include="SyncPage.xaml" />
   </ItemGroup>
 </Project>

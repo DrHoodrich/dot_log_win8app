@@ -32,6 +32,7 @@ namespace App1
         bool _contentLoaded;
     
         private: ::Windows::UI::Xaml::Controls::AppBarButton^ EditEvents;
+        private: ::Windows::UI::Xaml::Controls::AppBarButton^ SyncPage;
         private: ::Windows::UI::Xaml::Controls::TextBlock^ Category;
         private: ::Windows::UI::Xaml::Controls::TextBlock^ Airport;
         private: ::Windows::UI::Xaml::Controls::TextBlock^ Important;

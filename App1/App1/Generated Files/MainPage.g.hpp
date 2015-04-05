@@ -24,6 +24,8 @@ void ::App1::MainPage::InitializeComponent()
 
     // Get the AppBarButton named 'EditEvents'
     EditEvents = safe_cast<::Windows::UI::Xaml::Controls::AppBarButton^>(static_cast<Windows::UI::Xaml::IFrameworkElement^>(this)->FindName(L"EditEvents"));
+    // Get the AppBarButton named 'SyncPage'
+    SyncPage = safe_cast<::Windows::UI::Xaml::Controls::AppBarButton^>(static_cast<Windows::UI::Xaml::IFrameworkElement^>(this)->FindName(L"SyncPage"));
     // Get the TextBlock named 'Category'
     Category = safe_cast<::Windows::UI::Xaml::Controls::TextBlock^>(static_cast<Windows::UI::Xaml::IFrameworkElement^>(this)->FindName(L"Category"));
     // Get the TextBlock named 'Airport'
@@ -39,6 +41,10 @@ void ::App1::MainPage::Connect(int connectionId, Platform::Object^ target)
     case 1:
         (safe_cast<::Windows::UI::Xaml::Controls::Primitives::ButtonBase^>(target))->Click +=
             ref new ::Windows::UI::Xaml::RoutedEventHandler(this, (void (::App1::MainPage::*)(Platform::Object^, Windows::UI::Xaml::RoutedEventArgs^))&MainPage::EditEventsButton_Click);
+        break;
+    case 2:
+        (safe_cast<::Windows::UI::Xaml::Controls::Primitives::ButtonBase^>(target))->Click +=
+            ref new ::Windows::UI::Xaml::RoutedEventHandler(this, (void (::App1::MainPage::*)(Platform::Object^, Windows::UI::Xaml::RoutedEventArgs^))&MainPage::SyncPageButton_Click);
         break;
     }
     (void)connectionId; // Unused parameter
