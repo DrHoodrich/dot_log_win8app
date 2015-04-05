@@ -12,6 +12,7 @@ namespace Windows {
     namespace UI {
         namespace Xaml {
             namespace Controls {
+                ref class AppBarButton;
                 ref class TextBlock;
             }
         }
@@ -30,6 +31,7 @@ namespace App1
     private:
         bool _contentLoaded;
     
+        private: ::Windows::UI::Xaml::Controls::AppBarButton^ EditEvents;
         private: ::Windows::UI::Xaml::Controls::TextBlock^ Category;
         private: ::Windows::UI::Xaml::Controls::TextBlock^ Airport;
         private: ::Windows::UI::Xaml::Controls::TextBlock^ Important;

@@ -5,6 +5,7 @@
 
 #include "pch.h"
 #include "MainPage.xaml.h"
+#include "EditEvents.xaml.h"
 
 using namespace App1;
 
@@ -24,4 +25,13 @@ using namespace Windows::UI::Xaml::Navigation;
 MainPage::MainPage()
 {
 	InitializeComponent();
+}
+
+
+void App1::MainPage::EditEventsButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	if (this->Frame != nullptr)
+	{
+		this->Frame->Navigate(EditEvents::typeid);
+	}
 }

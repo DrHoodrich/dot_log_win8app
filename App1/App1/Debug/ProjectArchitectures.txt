@@ -1,1 +1,1 @@
-c:\Users\Nate\documents\visual studio 2013\Projects\App1\App1\App1.vcxproj;x86
+C:\Users\Mark\Documents\dot_log_win8app\App1\App1\App1.vcxproj;x86

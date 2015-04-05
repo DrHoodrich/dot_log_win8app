@@ -11,7 +11,7 @@
     <Page.TopAppBar>
         <CommandBar>
             <AppBarButton Icon="Add" Label="New Event"/>
-            <AppBarButton Icon="AllApps" Label="Edit Events"/>
+            <AppBarButton x:Name="EditEvents" Icon="AllApps" Label="Edit Events" Click="EditEventsButton_Click"/>
             <AppBarButton Icon="Sync" Label="Sync"/>
         </CommandBar>
     </Page.TopAppBar>
