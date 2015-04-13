@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-04-05T00:43:06.328</Modified>
+      <Modified>2015-04-08T20:29:04.477</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2015-04-05T00:43:02.190</Modified>
+      <Modified>2015-04-08T04:03:11.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.winmd">
       <PackagePath>App1.winmd</PackagePath>
@@ -62,7 +62,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-04-05T00:42:57.446</Modified>
+      <Modified>2015-04-08T04:03:04.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\SyncPage.xbf">
       <PackagePath>SyncPage.xbf</PackagePath>
@@ -70,7 +70,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-04-05T00:43:06.026</Modified>
+      <Modified>2015-04-08T20:29:03.946</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

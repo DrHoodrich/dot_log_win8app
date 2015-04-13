@@ -137,6 +137,7 @@
     <ClInclude Include="EditEvents.xaml.h">
       <DependentUpon>EditEvents.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="jsonClass.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h">
       <DependentUpon>App.xaml</DependentUpon>
@@ -184,6 +185,7 @@
     <ClCompile Include="EditEvents.xaml.cpp">
       <DependentUpon>EditEvents.xaml</DependentUpon>
     </ClCompile>
+    <ClCompile Include="jsonClass.cpp" />
     <ClCompile Include="MainPage.xaml.cpp">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </ClCompile>

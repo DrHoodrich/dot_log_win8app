@@ -14,6 +14,12 @@ namespace Windows {
             namespace Controls {
                 ref class AppBarButton;
                 ref class TextBlock;
+                ref class ComboBox;
+                ref class CheckBox;
+                ref class TimePicker;
+                ref class DatePicker;
+                ref class TextBox;
+                ref class Button;
             }
         }
     }
@@ -33,9 +39,17 @@ namespace App1
     
         private: ::Windows::UI::Xaml::Controls::AppBarButton^ EditEvents;
         private: ::Windows::UI::Xaml::Controls::AppBarButton^ SyncPage;
-        private: ::Windows::UI::Xaml::Controls::TextBlock^ Category;
-        private: ::Windows::UI::Xaml::Controls::TextBlock^ Airport;
-        private: ::Windows::UI::Xaml::Controls::TextBlock^ Important;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ categoryLabel;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ airportLabel;
+        private: ::Windows::UI::Xaml::Controls::ComboBox^ categoryBox;
+        private: ::Windows::UI::Xaml::Controls::ComboBox^ airportBox;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ importantLabel;
+        private: ::Windows::UI::Xaml::Controls::CheckBox^ reportBox;
+        private: ::Windows::UI::Xaml::Controls::TimePicker^ timeBox;
+        private: ::Windows::UI::Xaml::Controls::DatePicker^ dateBox;
+        private: ::Windows::UI::Xaml::Controls::TextBlock^ timeLabel;
+        private: ::Windows::UI::Xaml::Controls::TextBox^ descriptionBox;
+        private: ::Windows::UI::Xaml::Controls::Button^ submitButton;
     };
 }
 

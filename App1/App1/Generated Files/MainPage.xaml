@@ -19,40 +19,40 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
         <!-- Writes Category and Airport textblock -->
-        <TextBlock Name="Category" HorizontalAlignment="Left" Margin="87,98,0,0" TextWrapping="Wrap" Text="Category" VerticalAlignment="Top" Height="51" Width="186" FontSize="42">
+        <TextBlock Name="categoryLabel" HorizontalAlignment="Left" Margin="87,98,0,0" TextWrapping="Wrap" Text="Category" VerticalAlignment="Top" Height="51" Width="186" FontSize="42">
             Category
         </TextBlock>
-        <TextBlock Name="Airport" Text="Airport" HorizontalAlignment="Left" Margin="129,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="51" Width="144" FontSize="42">
+        <TextBlock Name="airportLabel" Text="Airport" HorizontalAlignment="Left" Margin="129,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="51" Width="144" FontSize="42">
         </TextBlock>
         <!-- Combo box for category -->
-        <ComboBox HorizontalAlignment="Left" Margin="310,98,0,0" VerticalAlignment="Top" Width="201" Height="51">
+        <ComboBox Name ="categoryBox" HorizontalAlignment="Left" Margin="310,98,0,0" VerticalAlignment="Top" Width="201" Height="51">
             <x:String>Emergency</x:String>
             <x:String>Item 2</x:String>
             <x:String>Item 3</x:String>
         </ComboBox>
         <!-- Combo box for airport -->
-        <ComboBox HorizontalAlignment="Left" Margin="310,205,0,0" VerticalAlignment="Top" Width="201" Height="51">
+        <ComboBox Name="airportBox" HorizontalAlignment="Left" Margin="310,205,0,0" VerticalAlignment="Top" Width="201" Height="51">
             <x:String>Fairbanks</x:String>
             <x:String>Item 2</x:String>
             <x:String>Item 3</x:String>
         </ComboBox>
         <!-- Include in report text -->
-        <TextBlock Text="Include in Report" Name="Important" HorizontalAlignment="Left" Margin="586,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="42">
+        <TextBlock Text="Include in Report" Name="importantLabel" HorizontalAlignment="Left" Margin="586,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="42">
         </TextBlock>
         <!-- Check box for include in report -->
-        <CheckBox Content="" HorizontalAlignment="Left" Margin="971,126,0,0" VerticalAlignment="Top" Height="31" Width="31" RenderTransformOrigin="1,1">
+        <CheckBox Name ="reportBox" Content="" HorizontalAlignment="Left" Margin="971,126,0,0" VerticalAlignment="Top" Height="31" Width="31" RenderTransformOrigin="1,1">
             <CheckBox.RenderTransform>
                 <CompositeTransform ScaleX="2" ScaleY="2"/>
             </CheckBox.RenderTransform>
         </CheckBox>
         <!-- Time picker for time of event -->
-        <TimePicker HorizontalAlignment="Left" Margin="869,268,0,0" VerticalAlignment="Top" Height="35" Width="285"/>
-        <DatePicker HorizontalAlignment="Left" Margin="869,215,0,0" VerticalAlignment="Top"/>
-        <TextBlock FontSize="42" HorizontalAlignment="Left" Margin="586,206,0,0" TextWrapping="Wrap" Text="Time of Event" VerticalAlignment="Top"/>
+        <TimePicker Name="timeBox" HorizontalAlignment="Left" Margin="869,268,0,0" VerticalAlignment="Top" Height="35" Width="285"/>
+        <DatePicker Name="dateBox" HorizontalAlignment="Left" Margin="869,215,0,0" VerticalAlignment="Top"/>
+        <TextBlock Name="timeLabel" FontSize="42" HorizontalAlignment="Left" Margin="586,206,0,0" TextWrapping="Wrap" Text="Time of Event" VerticalAlignment="Top"/>
 
         <!-- Entry field for event description -->
-        <TextBox HorizontalAlignment="Left" Margin="87,345,0,0" TextWrapping="Wrap" Text="Event Description" VerticalAlignment="Top" Height="219" Width="1062"/>
-        <Button Content="Submit" HorizontalAlignment="Left" Margin="960,613,0,0" VerticalAlignment="Top" Height="75" Width="131"/>
+        <TextBox Name="descriptionBox" HorizontalAlignment="Left" Margin="87,345,0,0" TextWrapping="Wrap" Text="Event Description" VerticalAlignment="Top" Height="219" Width="1062"/>
+        <Button Name ="submitButton" Content="Submit" HorizontalAlignment="Left" Margin="960,613,0,0" VerticalAlignment="Top" Height="75" Width="131"/>
 
         
 

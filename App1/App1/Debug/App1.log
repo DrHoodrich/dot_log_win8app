@@ -1,40 +1,50 @@
-﻿Build started 4/4/2015 4:42:41 PM.
+﻿Build started 4/8/2015 3:17:31 PM.
      1>Project "C:\Users\Mark\Documents\dot_log_win8app\App1\App1\App1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Mark\Documents\dot_log_win8app\App1\App1\ /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\App1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj App.xaml.cpp MainPage.xaml.cpp SyncPage.xaml.cpp
-         App.xaml.cpp
-         MainPage.xaml.cpp
-         SyncPage.xaml.cpp
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Mark\Documents\dot_log_win8app\App1\App1\ /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\App1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj jsonClass.cpp
+         jsonClass.cpp
        CreateWinMD:
          C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
          Debug\NavigationHelper.obj
          Debug\RelayCommand.obj
          Debug\SuspensionManager.obj
          Debug\EditEvents.xaml.obj
+         Debug\jsonClass.obj
          Debug\MainPage.xaml.obj
          Debug\pch.obj
          Debug\SyncPage.xaml.obj
          Debug\XamlTypeInfo.Impl.g.obj
-       CompileXamlGeneratedFiles:
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Mark\Documents\dot_log_win8app\App1\App1\ /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\App1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4453 /wd28204 /FU"C:\Program Files\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "Generated Files\XamlTypeInfo.g.cpp"
-         XamlTypeInfo.g.cpp
        Link:
          C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
          Debug\NavigationHelper.obj
          Debug\RelayCommand.obj
          Debug\SuspensionManager.obj
          Debug\EditEvents.xaml.obj
+         Debug\jsonClass.obj
          Debug\MainPage.xaml.obj
          Debug\pch.obj
          Debug\SyncPage.xaml.obj
          Debug\XamlTypeInfo.Impl.g.obj
          Debug\XamlTypeInfo.g.obj
             Creating library C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.lib and object C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.exp
-         App1.vcxproj -> C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.exe
-       _GenerateProjectPriFileCore:
-         C:\Program Files\Windows Kits\8.1\bin\x86\MakePri.exe New -ProjectRoot C:\Users\Mark\Documents\dot_log_win8app\App1\App1\ -ConfigXml Debug\priconfig.xml -OutputFile C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\resources.pri -IndexName 5f337914-64c4-458f-974f-4b0724b7ddee -Verbose -Overwrite  
-     1>Done Building Project "C:\Users\Mark\Documents\dot_log_win8app\App1\App1\App1.vcxproj" (Build target(s)).
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: __thiscall Json::Value::Value(enum Json::ValueType)" (??0Value@Json@@QAE@W4ValueType@1@@Z) referenced in function "public: static bool __cdecl CJsonSerializer::Deserialize(class IJsonSerializable *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?Deserialize@CJsonSerializer@@SA_NPAVIJsonSerializable@@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: __thiscall Json::Value::Value(char const *)" (??0Value@Json@@QAE@PBD@Z) referenced in function "public: virtual void __thiscall storedEvent::Deserialize(class Json::Value &)" (?Deserialize@storedEvent@@UAEXAAVValue@Json@@@Z)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: __thiscall Json::Value::Value(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Value@Json@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: virtual void __thiscall storedEvent::Serialize(class Json::Value &)" (?Serialize@storedEvent@@UAEXAAVValue@Json@@@Z)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: __thiscall Json::Value::Value(bool)" (??0Value@Json@@QAE@_N@Z) referenced in function "public: virtual void __thiscall storedEvent::Deserialize(class Json::Value &)" (?Deserialize@storedEvent@@UAEXAAVValue@Json@@@Z)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: __thiscall Json::Value::~Value(void)" (??1Value@Json@@QAE@XZ) referenced in function "public: static bool __cdecl CJsonSerializer::Deserialize(class IJsonSerializable *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?Deserialize@CJsonSerializer@@SA_NPAVIJsonSerializable@@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: class Json::Value & __thiscall Json::Value::operator=(class Json::Value)" (??4Value@Json@@QAEAAV01@V01@@Z) referenced in function "public: virtual void __thiscall storedEvent::Serialize(class Json::Value &)" (?Serialize@storedEvent@@UAEXAAVValue@Json@@@Z)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Json::Value::asString(void)const " (?asString@Value@Json@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) referenced in function "public: virtual void __thiscall storedEvent::Deserialize(class Json::Value &)" (?Deserialize@storedEvent@@UAEXAAVValue@Json@@@Z)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: bool __thiscall Json::Value::asBool(void)const " (?asBool@Value@Json@@QBE_NXZ) referenced in function "public: virtual void __thiscall storedEvent::Deserialize(class Json::Value &)" (?Deserialize@storedEvent@@UAEXAAVValue@Json@@@Z)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: class Json::Value & __thiscall Json::Value::operator[](char const *)" (??AValue@Json@@QAEAAV01@PBD@Z) referenced in function "public: virtual void __thiscall storedEvent::Serialize(class Json::Value &)" (?Serialize@storedEvent@@UAEXAAVValue@Json@@@Z)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: class Json::Value __thiscall Json::Value::get(char const *,class Json::Value const &)const " (?get@Value@Json@@QBE?AV12@PBDABV12@@Z) referenced in function "public: virtual void __thiscall storedEvent::Deserialize(class Json::Value &)" (?Deserialize@storedEvent@@UAEXAAVValue@Json@@@Z)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: __thiscall Json::Reader::Reader(void)" (??0Reader@Json@@QAE@XZ) referenced in function "public: static bool __cdecl CJsonSerializer::Deserialize(class IJsonSerializable *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?Deserialize@CJsonSerializer@@SA_NPAVIJsonSerializable@@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: bool __thiscall Json::Reader::parse(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class Json::Value &,bool)" (?parse@Reader@Json@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAVValue@2@_N@Z) referenced in function "public: static bool __cdecl CJsonSerializer::Deserialize(class IJsonSerializable *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?Deserialize@CJsonSerializer@@SA_NPAVIJsonSerializable@@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall Json::Writer::~Writer(void)" (??1Writer@Json@@UAE@XZ) referenced in function "public: virtual __thiscall Json::StyledWriter::~StyledWriter(void)" (??1StyledWriter@Json@@UAE@XZ)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: __thiscall Json::StyledWriter::StyledWriter(void)" (??0StyledWriter@Json@@QAE@XZ) referenced in function "public: static bool __cdecl CJsonSerializer::Serialize(class IJsonSerializable *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?Serialize@CJsonSerializer@@SA_NPAVIJsonSerializable@@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>jsonClass.obj : error LNK2019: unresolved external symbol "public: virtual class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Json::StyledWriter::write(class Json::Value const &)" (?write@StyledWriter@Json@@UAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABVValue@2@@Z) referenced in function "public: static bool __cdecl CJsonSerializer::Serialize(class IJsonSerializable *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?Serialize@CJsonSerializer@@SA_NPAVIJsonSerializable@@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>C:\Users\Mark\Documents\dot_log_win8app\App1\Debug\App1\App1.exe : fatal error LNK1120: 15 unresolved externals
+     1>Done Building Project "C:\Users\Mark\Documents\dot_log_win8app\App1\App1\App1.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:24.88
+Time Elapsed 00:00:03.23
