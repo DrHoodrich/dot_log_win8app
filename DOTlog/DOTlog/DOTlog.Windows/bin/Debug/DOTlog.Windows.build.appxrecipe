@@ -1,56 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>MARKSLAPTOP</Machine>
-    <WindowsUser>Mark</WindowsUser>
+    <Machine>WIN8_1_VM1</Machine>
+    <WindowsUser>DOTlog</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>30ffa5c9-8245-4399-b864-af572fc609d0</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\DOTlog.Windows.exe">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\DOTlog.Windows.exe">
       <PackagePath>DOTlog.Windows.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\EditEvents.xbf">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\EditEvents.xbf">
       <PackagePath>EditEvents.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\SyncEvents.xbf">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\SyncEvents.xbf">
       <PackagePath>SyncEvents.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\DOTlog.Windows.xr.xml">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\DOTlog.Windows.xr.xml">
       <PackagePath>DOTlog.Windows.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

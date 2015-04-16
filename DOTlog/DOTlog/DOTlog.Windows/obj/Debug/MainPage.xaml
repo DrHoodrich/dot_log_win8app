@@ -33,8 +33,9 @@
         <DatePicker Name="dateField" HorizontalAlignment="Left" Margin="366,262,0,0" VerticalAlignment="Top"/>
         <TimePicker Name="timeField" HorizontalAlignment="Left" Margin="366,309,0,0" VerticalAlignment="Top"/>
         <TextBox Name="eventDescriptionField" HorizontalAlignment="Left" Margin="94,399,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="214" Width="377"/>
-        <Button x:ConnectionId='3' Name="submitButton" Content="Submit" FontSize="40" HorizontalAlignment="Left" Margin="906,645,0,0" VerticalAlignment="Top"                           />
+        <Button x:ConnectionId='3' Name="jsonButton" Content="JSON" FontSize="40" HorizontalAlignment="Left" Margin="582,645,0,0" VerticalAlignment="Top"                         />
         <TextBox Name="jsonResult" HorizontalAlignment="Left" Margin="551,399,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="214" Width="388"/>
+        <Button x:ConnectionId='4' x:Name="submitButton" Content="SUBMIT" FontSize="40" HorizontalAlignment="Left" Margin="760,645,0,0" VerticalAlignment="Top"                           />
 
     </Grid>
 </Page>

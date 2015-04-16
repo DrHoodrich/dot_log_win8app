@@ -121,6 +121,10 @@
     <Compile Include="SyncEvents.xaml.cs">
       <DependentUpon>SyncEvents.xaml</DependentUpon>
     </Compile>
+    <Compile Include="XmlIO.cs">
+      <SubType>
+      </SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">

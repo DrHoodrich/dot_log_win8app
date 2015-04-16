@@ -13,9 +13,11 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using System.Xml.Serialization;
 using System.Runtime.Serialization.Json;
 using Windows.Globalization;
 using Windows.Globalization.DateTimeFormatting;
+using Windows.Storage;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -43,9 +45,8 @@ namespace DOTlog
             this.Frame.Navigate(typeof(SyncEvents));
         }
 
-        private void submitButton_Click(object sender, RoutedEventArgs e)
+        private string dateTime()
         {
-           
             string dateAndTimeOfEvent;
 
             DateTimeFormatter dateFormatter = new DateTimeFormatter("shortdate");
@@ -62,13 +63,26 @@ namespace DOTlog
             calendar.SetDateTime(combinedValue);
 
             dateAndTimeOfEvent = dateFormatter.Format(combinedValue) + " " + timeFormatter.Format(combinedValue);
-            
+
+            return dateAndTimeOfEvent;
+        }
+
+        private async void jsonButton_Click(object sender, RoutedEventArgs e)
+        {
             memoryStream = new MemoryStream();
-            jsonClass eventObj = new jsonClass((string)airportField.SelectedItem, (string)categoryField.SelectedItem, dateAndTimeOfEvent, eventDescriptionField.Text, (bool)includeInReportField.IsChecked);
+            jsonClass eventObj = await XmlReadWriteUniversal.XmlIO.ReadObjectFromXmlFileAsync<jsonClass>("events.xml");
             serialer.WriteObject(memoryStream, eventObj);
             byte[] jsonArray = memoryStream.ToArray();
             memoryStream.Dispose();
             jsonResult.Text = Encoding.UTF8.GetString(jsonArray, 0, jsonArray.Length);
+        }
+
+        
+
+        private async void submitButton_Click(object sender, RoutedEventArgs e)
+        {
+            jsonClass eventObj = new jsonClass((string)airportField.SelectedItem, (string)categoryField.SelectedItem, dateTime(), eventDescriptionField.Text, (bool)includeInReportField.IsChecked);
+            await XmlReadWriteUniversal.XmlIO.SaveObjectToXml(eventObj, "events.xml");
         }
     }
 }

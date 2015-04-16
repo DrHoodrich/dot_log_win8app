@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>MARKSLAPTOP</Machine>
-    <WindowsUser>Mark</WindowsUser>
+    <Machine>WIN8_1_VM1</Machine>
+    <WindowsUser>DOTlog</WindowsUser>
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>30ffa5c9-8245-4399-b864-af572fc609d0</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\obj\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>6B2FD416337404AB5C93B8BE77FAE95DE57E0BADCF6181730AB146254A18659A</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>30ffa5c9-8245-4399-b864-af572fc609d0_1.0.0.0_neutral__73zwdfx56gv16</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>30ffa5c9-8245-4399-b864-af572fc609d0_73zwdfx56gv16!App</RegisteredUserModeAppID>
@@ -17,60 +17,60 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-04-09T01:09:21.480</Modified>
+      <Modified>2015-04-16T03:00:21.903</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\DOTlog.Windows.exe">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\DOTlog.Windows.exe">
       <PackagePath>DOTlog.Windows.exe</PackagePath>
-      <Modified>2015-04-09T02:05:20.965</Modified>
+      <Modified>2015-04-16T06:01:41.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-14T18:55:28.000</Modified>
+      <Modified>2015-04-16T01:51:13.871</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-14T18:55:28.000</Modified>
+      <Modified>2015-04-16T01:51:13.871</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-14T18:55:28.000</Modified>
+      <Modified>2015-04-16T01:51:13.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-03-14T18:55:28.000</Modified>
+      <Modified>2015-04-16T01:51:13.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-04-08T23:35:55.169</Modified>
+      <Modified>2015-04-16T01:54:05.643</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\EditEvents.xbf">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\EditEvents.xbf">
       <PackagePath>EditEvents.xbf</PackagePath>
-      <Modified>2015-04-09T01:09:17.697</Modified>
+      <Modified>2015-04-16T01:54:05.643</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-04-09T01:09:17.706</Modified>
+      <Modified>2015-04-16T03:00:21.140</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\SyncEvents.xbf">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\SyncEvents.xbf">
       <PackagePath>SyncEvents.xbf</PackagePath>
-      <Modified>2015-04-09T01:09:17.713</Modified>
+      <Modified>2015-04-16T01:54:05.643</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\DOTlog.Windows.xr.xml">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\DOTlog.Windows.xr.xml">
       <PackagePath>DOTlog.Windows.xr.xml</PackagePath>
-      <Modified>2015-04-09T01:09:15.189</Modified>
+      <Modified>2015-04-16T01:51:16.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Mark\Desktop\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\DOTlog\Documents\dot_log_win8app\DOTlog\DOTlog\DOTlog.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-04-09T01:09:20.699</Modified>
+      <Modified>2015-04-16T03:00:21.712</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
