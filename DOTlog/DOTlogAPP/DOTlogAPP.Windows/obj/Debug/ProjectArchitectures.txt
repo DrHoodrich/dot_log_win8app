@@ -1,0 +1,1 @@
+c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\DOTlogAPP.Windows.csproj;neutral

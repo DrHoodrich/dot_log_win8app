@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="DOTlogAPP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DOTlogAPP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Teal">  
+        <ListView Name ="displayEvents" Background="Gray" HorizontalAlignment="Left" Height="349" Margin="108,181,0,0" VerticalAlignment="Top" Width="303">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Path=EVENT_TIME}"></TextBlock>
+                        <TextBlock TextWrapping="Wrap"  Text="{Binding Path=EVENT_TEXT}"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Name="syncButton" Content="Sync" HorizontalAlignment="Left" Margin="106,116,0,0" VerticalAlignment="Top" Width="147" Click="syncButton_Click"/>
+        <Button Name="addEventButton" Content="Add Event" HorizontalAlignment="Left" Margin="267,116,0,0" VerticalAlignment="Top" Width="147" Click="addEventButton_Click"/>
+        <Button Name="eventTabButton" Content="Events" HorizontalAlignment="Left" Margin="105,560,0,0" VerticalAlignment="Top" Width="148" Click="eventTabButton_Click"/>
+        <Button Name="accountSettingsButton" Content="Account Settings" HorizontalAlignment="Left" Margin="267,560,0,0" VerticalAlignment="Top" Click="accountSettingsButton_Click"/>
+        <Button Name="deleteButton" Content="Delete" HorizontalAlignment="Left" Margin="437,256,0,0" VerticalAlignment="Top" Click="deleteButton_Click"/>
+        <Image Source="Assets/banner.png" Stretch="None"  HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="1366"/>
+    </Grid>
+</Page>

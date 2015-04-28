@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN8_1_VM1</Machine>
+    <WindowsUser>DOTlog</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e75480d2-917f-4907-a77a-fd3f8761ba59</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>B0516B0C739230F3FA93A45D13B68975CC26BE3DC9AD6A77CDD6EF009CA18793</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e75480d2-917f-4907-a77a-fd3f8761ba59_1.0.0.0_neutral__z97weqy97n874</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e75480d2-917f-4907-a77a-fd3f8761ba59_z97weqy97n874!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e75480d2-917f-4907-a77a-fd3f8761ba59</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DOTlog</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-28T08:53:00.244</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\bin\Debug\DOTlogAPP.Windows.exe">
+      <PackagePath>DOTlogAPP.Windows.exe</PackagePath>
+      <Modified>2015-04-28T09:40:40.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\Assets\banner.png">
+      <PackagePath>Assets\banner.png</PackagePath>
+      <Modified>2015-04-28T08:45:35.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Shared\userAirports.xml">
+      <PackagePath>userAirports.xml</PackagePath>
+      <Modified>2013-07-23T13:00:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Shared\userCategories.xml">
+      <PackagePath>userCategories.xml</PackagePath>
+      <Modified>2013-07-23T13:00:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-04-26T22:48:33.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\bin\Debug\accountSettings.xbf">
+      <PackagePath>accountSettings.xbf</PackagePath>
+      <Modified>2015-04-28T09:34:53.157</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\bin\Debug\addEvent.xbf">
+      <PackagePath>addEvent.xbf</PackagePath>
+      <Modified>2015-04-27T01:33:05.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-04-28T09:40:39.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\bin\Debug\DOTlogAPP.Windows.xr.xml">
+      <PackagePath>DOTlogAPP.Windows.xr.xml</PackagePath>
+      <Modified>2015-04-28T09:40:39.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dotlog\documents\visual studio 2013\Projects\DOTlogAPP\DOTlogAPP\DOTlogAPP.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-04-28T08:53:00.130</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
